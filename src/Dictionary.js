@@ -11,6 +11,7 @@ export default function Dictionary() {
   function search(event) {
     event.preventDefault();
     alert(`searching ${keyWord}`);
+    //api Documentation https://dictionaryapi.dev/
     const apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyWord}`;
     axios.get(apiUrl).then(handelResponse);
   }
