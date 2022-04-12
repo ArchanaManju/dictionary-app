@@ -12,7 +12,10 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="App-footer">Coded By Archana</footer>
+        <footer className="App-footer">
+          Coded By Archana{" "}
+          <a href="https://github.com/ArchanaManju/dictionary-app">Github</a>
+        </footer>
       </div>
     </div>
   );
