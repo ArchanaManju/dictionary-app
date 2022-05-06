@@ -1,0 +1,13 @@
+.meaning .definition {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: lighter;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.meaning .example {
+  font-size: 15px;
+  opacity: 0.7;
+  color: #70747a;
+  font-style: italic;
+  margin-top: 8px;
+}
