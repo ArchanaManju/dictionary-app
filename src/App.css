@@ -2,6 +2,7 @@
   max-width: 200px;
   display: block;
   margin: 0 auto;
+  margin-top: auto;
 }
 
 .App-header {
@@ -19,4 +20,7 @@ a {
 
 .App {
   background-color: rgb(242, 236, 247);
+  padding: 60px 0px 100px;
+  max-width: 960px;
+  margin: 0 auto;
 }
