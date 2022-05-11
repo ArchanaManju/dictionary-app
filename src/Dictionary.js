@@ -19,7 +19,6 @@ export default function Dictionary(props) {
     setPhotos(response.data.photos);
   }
   function search(event) {
-    //event.preventDefault();
     //api Documentation https://dictionaryapi.dev/
     const apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyWord}`;
     axios.get(apiUrl).then(handelDictionaryResponse);
